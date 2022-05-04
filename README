@@ -1,1 +1,5 @@
-This is a repo containing random OOP stuff for testing and learning.
+Functions that affect console / terminal in some way like:
+    - Clearing
+    - Colors
+    - Delayed printing
+    - Progress Bar
