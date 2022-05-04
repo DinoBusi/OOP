@@ -1,6 +1,8 @@
-import os, sys, time
+import os, sys
+import time
 
-class Terminal:
+
+class Texts:
     def clear():
         os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -15,6 +17,7 @@ class Terminal:
         bar = '█' * int(percent) + '-' * (100-int(percent))
         print(f"\r|{bar}| {percent:.2f} %", end="\r")
 
+
 class Colors:
     BLUE = '\033[94m'
     BLUE2 = '\u001b[38;5;45m'
@@ -28,6 +31,7 @@ class Colors:
     GRAY = '\u001b[38;5;8m'
     PINK = '\u001b[35m'
     ENDC = '\033[0m'
+
 
 class ColorsRGB:
     WHITE = (255,255,255)
